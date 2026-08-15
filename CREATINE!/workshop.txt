@@ -1,0 +1,6 @@
+version=1
+id=3674786973
+title=CREATINE!
+description=Ever felt like 85kg was light work? Ever looked at yourself and wondered how a toothpick like you is ever going to fight off the hordes? How about how you're going to move all that lard safely away from the chomping teeth of the undead? I present to you.... CREATINE! Load for 7 days, eat and work out like a lunatic! Work through the milestones and become all you can be.
+tags=Build 42;Multiplayer;Silly/Fun
+visibility=public

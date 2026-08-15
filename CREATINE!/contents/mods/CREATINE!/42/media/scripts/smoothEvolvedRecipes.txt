@@ -1,0 +1,11 @@
+module Base {
+    evolvedrecipe CreatineSmoothie {
+        BaseItem           = Base.Sportsbottle,
+        MinimumWater       = 0.5,
+        MaxItems           = 4,
+        ResultItem         = CREATINE.CreatineSmoothie,
+        Name               = Prepare Creatine Smoothie,
+        CanAddSpicesEmpty  = true,
+        AddIngredientSound = AddItemInBeverage,
+    }
+}

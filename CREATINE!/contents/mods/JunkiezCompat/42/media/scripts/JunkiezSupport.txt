@@ -1,0 +1,22 @@
+module JunkiezMoreSupplements
+{
+    item JunkiezProteinPowder
+    {
+        EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5;CREATINE.CreatineSmoothie:5,
+    }
+
+    item JunkiezPreworkout
+    {
+        EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5;CREATINE.CreatineSmoothie:5,
+    }
+
+    item JunkiezMassGainer
+    {
+        EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5;CREATINE.CreatineSmoothie:5,
+    }
+
+    item JunkiezFatBurner
+    {
+        EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5;CREATINE.CreatineSmoothie:5,
+    }
+}

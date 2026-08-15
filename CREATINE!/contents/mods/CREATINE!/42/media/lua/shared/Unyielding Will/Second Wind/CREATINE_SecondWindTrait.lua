@@ -1,4 +1,4 @@
--- Second Wind behavior -- Project Zomboid 42.20 stable
+-- Second Wind behavior -- Project Zomboid 42.20.2
 
 local COOLDOWN_HOURS = 24 * 7
 local TRIGGER_HEALTH = 20

@@ -1,0 +1,16 @@
+[h1]CREATINE! 1.1.0 - Build 42.20.2 structural update[/h1]
+
+[list]
+[*]Fixed the Creatine Smoothie being registered under the wrong script module.
+[*]Fixed evolved-recipe context entries failing to resolve the actual recipe.
+[*]Replaced destructive vanilla-item overrides with the official EvolvedRecipe and ItemRecipe APIs.
+[*]Reworked Junkiez compatibility so it no longer replaces external item definitions.
+[*]Removed the temporary context-menu debugger that ran on every inventory interaction.
+[*]Moved loot injection to OnPreDistributionMerge and prevented duplicate distribution entries.
+[*]Optimized Bulldoze by scanning nearby squares instead of every loaded zombie.
+[*]Reduced milestone polling while preserving immediate checks after consuming creatine.
+[*]Changed empty sports-bottle return to the vanilla ReplaceOnUse mechanism.
+[*]Corrected Second Wind's description to match its seven-day cooldown.
+[*]Added complete English and Brazilian Portuguese strings for items, recipes, context menus, and traits.
+[*]Validated the mod and optional compatibility module against Project Zomboid 42.20.2.
+[/list]

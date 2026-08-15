@@ -1,4 +1,4 @@
--- CREATINE custom traits -- Project Zomboid 42.20 stable
+-- CREATINE custom traits -- Project Zomboid 42.20.2
 
 local function registerTrait(resourceName, label, description, texturePath)
     local traitType = CharacterTrait.register(resourceName)

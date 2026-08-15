@@ -23,6 +23,7 @@ module CREATINE {
         UseDelta           = 0.1,
         UseWhileEquipped   = FALSE,
         OnEat              = CREATINE_OnEat,
+        ReplaceOnUse       = Base.Sportsbottle,
         StaticModel        = Sportsbottle,
         WorldStaticModel   = Sportsbottle,
     }
@@ -35,7 +36,7 @@ module CREATINE {
         Icon               = creatineicon,
         Weight             = 1,
         CantBeFrozen       = TRUE,
-        EvolvedRecipe      = CreatineSmoothie:5;JunkiezShake:5;JunkiezBlendedShake:5,
+        EvolvedRecipe      = CREATINE.CreatineSmoothie:5,
         Packaged           = TRUE,
         UseDelta           = 0.1,
         OnEat              = CREATINE_OnEat,

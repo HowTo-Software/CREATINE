@@ -1,4 +1,8 @@
-module Base {
+module CREATINE {
+    imports {
+        Base
+    }
+
     evolvedrecipe CreatineSmoothie {
         BaseItem           = Base.Sportsbottle,
         MinimumWater       = 0.5,

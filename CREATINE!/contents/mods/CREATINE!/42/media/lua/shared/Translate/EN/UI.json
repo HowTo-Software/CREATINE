@@ -1,6 +1,6 @@
 {
     "UI_trait_CreatineSecondWind": "Second Wind",
-    "UI_trait_CreatineSecondWindDesc": "Refuse a potentially fatal hit, recover, and clear nearby zombies. Recharges after three days.",
+    "UI_trait_CreatineSecondWindDesc": "Refuse a potentially fatal hit, recover, and clear nearby zombies. Recharges after seven days.",
     "UI_trait_CreatineBulldoze": "Bulldoze",
     "UI_trait_CreatineBulldozeDesc": "Kill zombies directly in your path while running at the cost of your precious stamina."
 }

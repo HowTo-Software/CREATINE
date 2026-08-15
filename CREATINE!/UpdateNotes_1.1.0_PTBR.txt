@@ -1,0 +1,16 @@
+[h1]CREATINE! 1.1.0 - Atualizacao estrutural para a Build 42.20.2[/h1]
+
+[list]
+[*]Corrigido o registro da Vitamina de Creatina no modulo de script errado.
+[*]Corrigidas as entradas do menu de contexto que nao conseguiam resolver a receita real.
+[*]Substituidas as sobrescritas destrutivas de itens vanilla pelas APIs EvolvedRecipe e ItemRecipe.
+[*]Refeita a compatibilidade Junkiez para nao substituir definicoes de itens externos.
+[*]Removido o depurador temporario que executava em toda interacao com o inventario.
+[*]Movida a injecao de loot para OnPreDistributionMerge, impedindo entradas duplicadas.
+[*]Otimizado o Trator Humano para verificar apenas os quadrados proximos, em vez de todos os zumbis carregados.
+[*]Reduzida a frequencia de avaliacao dos marcos, mantendo a verificacao imediata apos consumir creatina.
+[*]A devolucao da garrafa esportiva vazia agora usa o mecanismo vanilla ReplaceOnUse.
+[*]Corrigida a descricao do Segundo Folego para corresponder a recarga real de sete dias.
+[*]Adicionadas traducoes completas em ingles e portugues brasileiro para itens, receitas, menus e traits.
+[*]Mod principal e compatibilidade opcional validados para Project Zomboid 42.20.2.
+[/list]

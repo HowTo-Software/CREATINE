@@ -1,21 +1,21 @@
--- CREATINE loading and milestone system -- Project Zomboid 42.20 stable
+-- CREATINE loading and milestone system -- Project Zomboid 42.20.2
 
-MilestoneSystem = MilestoneSystem or {}
-MilestoneSystem.DAYS_TO_LOAD = 7
-MilestoneSystem.Packs = {
+CREATINE_MilestoneSystem = CREATINE_MilestoneSystem or {}
+CREATINE_MilestoneSystem.DAYS_TO_LOAD = 7
+CREATINE_MilestoneSystem.Packs = {
     { name = "Bully",          weight = 85,  fitness = 5,  strength = 5 },
     { name = "Tactician",      weight = 95,  fitness = 6,  strength = 7 },
     { name = "Berserker",      weight = 110, fitness = 8,  strength = 9 },
     { name = "UnyieldingWill", weight = 130, fitness = 10, strength = 10 },
 }
 
-MilestoneSystem.SpeechGain = {
+CREATINE_MilestoneSystem.SpeechGain = {
     Bully          = "I could punch holes in the wall!",
     Tactician      = "I can shoot the peter off a skeeter at a hundred meters.",
     Berserker      = "WHERE ARE THEY?",
     UnyieldingWill = "I pity them no longer.",
 }
-MilestoneSystem.SpeechLoss = "Feel... so... weak..."
+CREATINE_MilestoneSystem.SpeechLoss = "Feel... so... weak..."
 
 local function bundles()
     return {
@@ -96,7 +96,7 @@ local function grantMilestone(player, data, milestoneName)
     for _, traitType in ipairs(bundles()[milestoneName] or {}) do
         addBundleTrait(player, data, traitType)
     end
-    local line = MilestoneSystem.SpeechGain[milestoneName]
+    local line = CREATINE_MilestoneSystem.SpeechGain[milestoneName]
     if line then player:Say(line) end
 end
 
@@ -121,7 +121,7 @@ function C_Master_EvaluateMilestones(player)
     data.CreatineWeight = weight
     data.CreatineRegularity = ((fitness + strength) / 20) * 100
 
-    for _, pack in ipairs(MilestoneSystem.Packs) do
+    for _, pack in ipairs(CREATINE_MilestoneSystem.Packs) do
         local achieved = data.CreatineLoaded == true
             and weight >= pack.weight
             and fitness >= pack.fitness
@@ -134,7 +134,7 @@ function C_Master_EvaluateMilestones(player)
     end
 
     suppressWeightTraits(player, data)
-    if lostAny then player:Say(MilestoneSystem.SpeechLoss) end
+    if lostAny then player:Say(CREATINE_MilestoneSystem.SpeechLoss) end
 end
 
 function C_Master_RecordDose(player)
@@ -157,7 +157,7 @@ function C_Master_RecordDose(player)
         data.DoseDayCount = data.DoseDayCount + 1
     end
 
-    if data.DoseDayCount >= MilestoneSystem.DAYS_TO_LOAD then
+    if data.DoseDayCount >= CREATINE_MilestoneSystem.DAYS_TO_LOAD then
         data.CreatineLoaded = true
     end
 
@@ -177,4 +177,4 @@ local function evaluateAllPlayers()
     end
 end
 
-Events.EveryOneMinute.Add(evaluateAllPlayers)
+Events.EveryTenMinutes.Add(evaluateAllPlayers)

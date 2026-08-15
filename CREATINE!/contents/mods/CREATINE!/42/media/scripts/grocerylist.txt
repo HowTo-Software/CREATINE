@@ -1,0 +1,369 @@
+module Base {
+    item Strewberrie {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Apple {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Banana {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Cherry {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item DriedApricots {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Grapefruit {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Grapes {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Lemon {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Lime {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Mango {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Orange {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Peach {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Pear {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Pineapple {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Watermelon {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item WatermelonSliced {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item WatermelonSmashed {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BerryBlack {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BerryBlue {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BerryGeneric1 {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BerryGeneric2 {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BerryGeneric3 {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BerryGeneric4 {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BerryGeneric5 {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Rosehips {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BeautyBerry {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item HollyBerry {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item WinterBerry {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item CannedFruitCocktailOpen {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item CannedPeachesOpen {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item CannedPineappleOpen {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item CannedFruitBeverageOpen {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Spinach {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Kale {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Avocado {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Carrots {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Cucumber {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item GingerRoot {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item SugarBeet {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Pumpkin {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item PumpkinSliced {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item PumpkinSmashed {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item SweetPotato {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Zucchini {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item CannedMilkOpen {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Yoghurt {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item OatsRaw {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item PeanutButter {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Butter {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Lard {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Chocolate {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Honey {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Sugar {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item SugarBrown {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item SugarCubes {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item SugarPacket {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item MapleSyrup {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item CocoaPowder {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Peanuts {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item SunflowerSeeds {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item FlaxSeed {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item ChocolateChips {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Egg {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item WildEggs {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item TurkeyEgg {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Bacon {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BaconRashers {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BaconBits {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Ham {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item HamSlice {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Baloney {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BaloneySlice {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Pepperoni {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Salami {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item SalamiSlice {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Sausage {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item MeatPatty {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item MincedMeat {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item ChickenWings {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Chicken {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item ChickenFillet {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item TurkeyLegs {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item TurkeyFillet {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item TurkeyWings {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item MuttonChop {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item PorkChop {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Pork {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Venison {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Beef {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Steak {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item Hotdog_single {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:4,
+    }
+
+    item BerryPoisonIvy {
+        EvolvedRecipe = CREATINE.CreatineSmoothie:5,
+    }
+}

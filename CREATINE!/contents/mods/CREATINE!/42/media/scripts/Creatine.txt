@@ -1,0 +1,49 @@
+module CREATINE {
+    imports {
+        Base
+    }
+
+    item CreatineSmoothie
+    {
+        DisplayName        = Creatine Smoothie,
+        DisplayCategory    = Food,
+        ItemType           = base:food,
+        Icon               = Sportsbottle,
+        Weight             = 1.0,
+        CantBeFrozen       = TRUE,
+        CustomContextMenu  = Drink,
+        CustomEatSound     = DrinkingFromBottlePlastic,
+        EatType            = Bourbon,
+        HungerChange       = -5,
+        ThirstChange       = -20,
+        Calories           = 0,
+        Carbohydrates      = 0,
+        Lipids             = 0,
+        Proteins           = 0,
+        UseDelta           = 0.1,
+        UseWhileEquipped   = FALSE,
+        OnEat              = CREATINE_OnEat,
+        StaticModel        = Sportsbottle,
+        WorldStaticModel   = Sportsbottle,
+    }
+
+    item Creatine
+    {
+        DisplayName        = Creatine!,
+        DisplayCategory    = Food,
+        ItemType           = base:food,
+        Icon               = creatineicon,
+        Weight             = 1,
+        CantBeFrozen       = TRUE,
+        EvolvedRecipe      = CreatineSmoothie:5;JunkiezShake:5;JunkiezBlendedShake:5,
+        Packaged           = TRUE,
+        UseDelta           = 0.1,
+        OnEat              = CREATINE_OnEat,
+        ThirstChange       = 400,
+        HungerChange       = -100,
+        UnhappyChange      = 100,
+        Calories           = 100,
+        WorldStaticModel   = CREATINE_Powder,
+        StaticModel        = CREATINE_Powder,
+    }
+}

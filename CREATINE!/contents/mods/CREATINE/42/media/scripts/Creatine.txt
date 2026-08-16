@@ -1,0 +1,24 @@
+module CREATINE {
+    imports {
+        Base
+    }
+    item Creatine
+    {
+        DisplayName        = Creatine,
+        DisplayCategory    = Food,
+        ItemType           = base:food,
+        Icon               = creatineicon,
+        Weight             = 1,
+        CantBeFrozen       = TRUE,
+        EvolvedRecipe      = JunkiezShake:5;JunkiezBlendedShake:5,
+        Packaged           = TRUE,
+        UseDelta           = 0.1,
+        OnEat              = CREATINE_OnEat,
+        ThirstChange       = 400,
+        HungerChange       = -100,
+        UnhappyChange      = 100,
+        Calories           = 100,
+        WorldStaticModel   = CREATINE_Powder,
+        StaticModel        = CREATINE_Powder,
+    }
+}

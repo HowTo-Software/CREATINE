@@ -1,0 +1,10 @@
+name=CREATINE!
+id=CREATINE
+description= It's dangerous to go alone! Take this.
+poster=poster.png
+icon=icon.png
+author=Raven
+require=\JunkiezMoreSupplements
+url=https://theindiestone.com/forums/
+versionMin=42.20
+

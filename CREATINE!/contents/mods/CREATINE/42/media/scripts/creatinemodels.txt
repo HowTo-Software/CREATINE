@@ -1,0 +1,14 @@
+module CREATINE
+{
+    model CREATINE_Powder
+    {
+        mesh    = WorldItems/CREATINE_Powder,
+        texture = WorldItems/creatinejar,
+        scale   = 0.0042,
+
+        attachment world
+        {
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+}
